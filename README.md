@@ -18,16 +18,24 @@ A basic full-stack web app for collecting user feedback through a contact form.
 - Saves submissions to `submissions.csv`
 - A static dashboard mockup (`mockup.html`) to preview how an admin panel might look
 
-## How to Run
+### How to Run
 
-1. Install Flask (if not already):
-```bash
-pip install flask
+To run this project locally:
 
-2. Run the app:
-```bash
-python app.py
+1. Install Flask using pip:
 
-3. Open your browser and visit:
-```bash
-http://127.0.0.1:5000/
+    ```bash
+    pip install flask
+    ```
+
+2. Run the Flask app:
+
+    ```bash
+    python ContactUsPro.py
+    ```
+
+3. Open your browser and go to:
+
+    ```
+    http://127.0.0.1:5000/
+    ```
